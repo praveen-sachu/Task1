@@ -1,0 +1,260 @@
+
+.box{
+    border: solid 1px grey;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    
+}
+.picture{
+    background-color: white;
+    background-image: url(./picture.png);
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    top: .9px;
+    left: 8.98px;
+    
+}
+.circle{
+    position: absolute;
+    top: 1cm;
+    left: 1cm;
+    background-color: white;
+    border: solid 1px grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 6px;
+    
+}
+.hometriangle{
+    position: absolute;
+    top: .4cm;
+    left: 1.1cm;
+    width: 0;
+    height: 0;
+    border: solid 29px;
+    border-color: transparent transparent  black ;
+   
+}
+.homebox1{
+    position: absolute;
+    top: 1.8cm;
+    left: 1.32cm;
+    background-color: black;
+    width: 40px;
+    height: 20px;
+}
+.homebox2{
+    position: absolute;
+    top: 1.8cm;
+    left: 1.8cm;
+    border: solid 1px black;
+    background-color: white;
+    width: 10px;
+    height: 18px;
+}
+.search{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    color: #C69C9C;
+    font-size: 14px;
+    font: bold;
+    font-family: Segoe UI;
+    border: solid 1px grey;
+    border-radius: 100px;
+    position: absolute;
+    top: 1.3cm;
+    left: 3.2cm;
+}
+.text{
+    text-align: left;    
+    margin: 10px;
+}
+.largebox{
+    width: 500px;
+    height: 290px;
+    background-color: white;    
+    border: solid 1px grey;
+    border-radius: 50px;
+    position: absolute;
+    top: 2.9cm;
+    left: 1cm;
+}
+.aboutus{
+    width: 520px;
+    height: 30px;
+    font-family: Segoe UI;
+    background-color: #3D4F68;  
+    border: solid 1px grey;
+    font-size: 8px;
+    color: #EECCCC;
+    font: bold;
+    text-align: center;
+    position: absolute;
+    top: 10.83cm;
+    left: .74cm;
+}
+.hometext{
+    margin-top: 0px;
+}
+.ourprogrammes{
+    width: 250px;
+    height: 35px;
+    background-color: orangered;
+    font-family: Trebuchet MS;    
+    border: solid 1px grey;
+    border-radius: 62px;   
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 3.1cm;
+    left: 4.4cm;
+}
+.admission{
+    width: 500px;
+    height: 15px;
+    background-color:#F3F5C5;    
+    border: solid 1px grey; 
+    font-family: 'Trebuchet MS'; 
+    font: bold; 
+    font-size: 9px;
+    color: rgb(212, 74, 19);
+    text-align: center;
+    position: absolute;
+    top: 4.2cm;
+    left: 1cm; 
+}
+.text1{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 17px;
+    margin-top: 5px;
+    color: white;
+}
+.dept{
+    width: 120px;
+    height: 35px;
+    border: solid 1px grey;
+    background-color: #3D4F68;
+    border-radius: 42px 154px;   
+    position: absolute;
+    top: 4.8cm;
+}
+#electronicsbox{    
+    left: 1.1cm; 
+}
+#electricalbox{
+    left: 4.4cm; 
+}
+#csebox{
+    left: 7.7cm; 
+}
+#mechbox{
+    left: 11cm; 
+}
+.deptbox{
+    width: 100px;
+    height: 150px;
+    border: solid 1px grey;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 6cm;
+}
+#electronicsbox1{   
+    left: 1.4cm; 
+}
+#electricalbox1{
+    left: 4.7cm; 
+}
+#csebox1{
+    left: 8cm; 
+}
+#mechbox1{
+    left: 11.3cm; 
+}
+.smallpicture{
+    width: 90px;
+    height: 50px;
+    border-radius: 75px;
+    background-image: url(./picture.png);
+    background-size: cover;
+    position: absolute;
+    top: 6.1cm;
+}
+#electronics{        
+    left: 1.5cm; 
+}
+#electrical{
+    left: 4.8cm; 
+}
+#cse{
+    left: 8.1cm; 
+}
+#mech{
+    left: 11.4cm; 
+}
+.content{
+    background-color: white;
+    border: solid 1px grey;
+    font-family: Segoe UI;
+    font-size: 7px;
+    font: bold;
+    width: 90px;
+    height: 85px;
+    text-align: center;
+    position: absolute;
+    top: 7.6cm;
+}
+#content1{
+    left: 1.5cm; 
+}
+#content2{
+    left: 4.8cm; 
+}
+#content3{
+    left: 8.14cm; 
+}
+#content4{
+    left: 11.43cm; 
+}
+.switch{
+    background-color: rgb(60, 227, 60);
+    border: solid 1px grey;
+    border-radius: 40px;
+    color: white;   
+    width: 70px;
+    height: 15px;        
+    position: absolute;
+    top: 9.2cm;
+}
+.buttontext{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font: bold;
+    color: white;
+    font-size: 10px;  
+    margin-top: 2px; 
+}
+#switch1{
+    left: 1.7cm;
+}
+#switch2{
+    left: 5.1cm;
+}
+#switch3{
+    left: 8.4cm;
+}
+#switch4{
+    left: 11.7cm;
+}
